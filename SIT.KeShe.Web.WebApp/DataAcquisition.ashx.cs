@@ -60,7 +60,7 @@ namespace SIT.KeShe.Web.WebApp
                     sb.Append("<thead><tr><th>#</th><th>节点</th><th>传感器</th><th>温度</th><th>湿度</th><th>时间</th></tr></thead>");
                     for (int i = 0; i < lsd.Count; i++)
                     {
-                        sb.Append("<tbody><tr><td>" + (i + 1) + "</td><td>" + lsd[i].Node + "</td><td>" + lsd[i].Sensortype + "</td><td>" + lsd[i].V1 + "</td><td>" + lsd[i].V2 + "</td><td>" + lsd[i].DTTime + "</td></tr></tbody>");
+                        sb.Append("<tbody><tr><td>" + (i + 1) + "</td><td>" + lsd[i].Node + "</td><td>" + lsd[i].Sensor + "</td><td>" + lsd[i].V1 + "</td><td>" + lsd[i].V2 + "</td><td>" + lsd[i].DTTime + "</td></tr></tbody>");
                     }
                 }
                 if (sensor1 == "3")
@@ -68,7 +68,7 @@ namespace SIT.KeShe.Web.WebApp
                     sb.Append("<thead><tr><th>#</th><th>节点</th><th>传感器</th><th>光照</th><th>时间</th></tr></thead>");
                     for (int i = 0; i < lsd.Count; i++)
                     {
-                        sb.Append("<tbody><tr><td>" + (i + 1) + "</td><td>" + lsd[i].Node + "</td><td>" + lsd[i].Sensortype + "</td><td>" + lsd[i].V1 + "</td><td>" + lsd[i].DTTime + "</td></tr></tbody>");
+                        sb.Append("<tbody><tr><td>" + (i + 1) + "</td><td>" + lsd[i].Node + "</td><td>" + lsd[i].Sensor + "</td><td>" + lsd[i].V1 + "</td><td>" + lsd[i].DTTime + "</td></tr></tbody>");
                     }
                 }
                 sb.Append("</div>");

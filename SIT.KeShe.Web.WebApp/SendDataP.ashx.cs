@@ -23,7 +23,7 @@ namespace SIT.KeShe.Web.WebApp
             //context.Response.Write(fileContent);
             SensorData sd = new SensorData();
             sd.Node = context.Request.QueryString["node"];
-            sd.Sensortype = context.Request.QueryString["sensor"];
+            sd.Sensor = context.Request.QueryString["sensor"];
             sd.V1 = context.Request.QueryString["v1"];
             sd.V2 = context.Request.QueryString["v2"];
             sd.DTTime = DateTime.Parse(context.Request.QueryString["datetime"]);

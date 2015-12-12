@@ -61,6 +61,7 @@
     <Content Include="About.aspx" />
     <Content Include="Index.aspx" />
     <Content Include="JS\bootstrap.min.js" />
+    <Content Include="JS\datapattern.js" />
     <Content Include="JS\jquery-2.1.4.min.js" />
     <Content Include="nav\DataAcquision.aspx" />
     <Content Include="nav\SensorTypeInfo.aspx" />
@@ -83,6 +84,9 @@
     <Compile Include="Index.aspx.designer.cs">
       <DependentUpon>Index.aspx</DependentUpon>
     </Compile>
+    <Compile Include="nav\DAjson.ashx.cs">
+      <DependentUpon>DAjson.ashx</DependentUpon>
+    </Compile>
     <Compile Include="nav\DataAcquision.aspx.cs">
       <DependentUpon>DataAcquision.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -104,6 +108,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="SendDataP.ashx" />
+    <Content Include="nav\DAjson.ashx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

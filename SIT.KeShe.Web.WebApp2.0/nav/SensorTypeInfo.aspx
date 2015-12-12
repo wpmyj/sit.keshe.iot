@@ -24,7 +24,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="Index.aspx">分布式数据采集/控制系统</a>
+                    <a class="navbar-brand" href="../Index.aspx">分布式数据采集/控制系统</a>
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav navbar-right">
@@ -33,10 +33,10 @@
                             导航<span class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <li><a href="SensorTypeInfo.aspx">传感器类型信息</a></li>
-                                <li><a href="DataAcquisition.ashx?node=&sensor=">实时数据监控</a></li>
+                                <li><a href="DataAcquision.aspx">实时数据监控</a></li>
                             </ul>
                         </li>
-                        <li><a href="About.aspx">About</a></li>
+                        <li><a href="../About.aspx">About</a></li>
                     </ul>
                 </div>
             </div>
@@ -47,7 +47,7 @@
                 <div class="col-sm-3 col-md-2 sidebar">
                     <ul class="nav nav-sidebar">
                         <li><a href="SensorTypeInfo.aspx">传感器类型信息</a></li>
-                        <li><a href="DataAcquisition.ashx?node=&sensor=">实时数据监控</a></li>
+                        <li><a href="DataAcquision.aspx">实时数据监控</a></li>
                     </ul>
                 </div>
                 <div class='col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main'>

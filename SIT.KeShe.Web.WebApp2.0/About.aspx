@@ -34,7 +34,7 @@
                             导航<span class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <li><a href="nav/SensorTypeInfo.aspx">传感器类型信息</a></li>
-                                <li><a href="DataAcquisition.ashx?node=&sensor=">实时数据监控</a></li>
+                                <li><a href="nav/DataAcquision.aspx">实时数据监控</a></li>
                             </ul>
                         </li>
                         <li><a href="About.aspx">About</a></li>
@@ -48,7 +48,7 @@
                 <div class="col-sm-3 col-md-2 sidebar">
                     <ul class="nav nav-sidebar">
                         <li><a href="nav/SensorTypeInfo.aspx">传感器类型信息</a></li>
-                        <li><a href="DataAcquisition.ashx?node=&sensor=">实时数据监控</a></li>
+                        <li><a href="nav/DataAcquision.aspx">实时数据监控</a></li>
                     </ul>
                 </div>
                 <div class='col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main'>

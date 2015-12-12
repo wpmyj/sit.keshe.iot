@@ -22,7 +22,7 @@ namespace SIT.KeShe.Web.DAL
                 new SqlParameter("@datetime",SqlDbType.DateTime)
             };
             pars[0].Value = sd.Node;
-            pars[1].Value = sd.Sensortype;
+            pars[1].Value = sd.Sensor;
             pars[2].Value = sd.V1;
             pars[3].Value = sd.V2;
             pars[4].Value = sd.DTTime;
